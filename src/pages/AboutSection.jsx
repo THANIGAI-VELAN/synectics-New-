@@ -11,13 +11,13 @@ export default function AboutSection() {
         md:text-[240px]
         font-playfair
         text-white/5
-        -top-10
+        -top-35
         left-1/2
         -translate-x-1/2
         pointer-events-none
         select-none
       ">
-        ABOUT
+      EVENTS
       </div>
 
         {events.map((item, index) => {
