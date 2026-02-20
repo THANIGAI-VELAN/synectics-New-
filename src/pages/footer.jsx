@@ -29,7 +29,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="mt-4 text-xs text-gray-600">
-          © 2026 Synectics. All Rights Reserved.
+          © Thanigai velan. All Rights Reserved.
         </p>
 
       </div>
