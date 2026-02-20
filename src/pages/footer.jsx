@@ -29,7 +29,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="mt-4 text-xs text-gray-600">
-          © Thanigai velan. All Rights Reserved.
+          © Thanigai velan, Pradeepa , Tamil Muhilan, Dev Bharath. All Rights Reserved.
         </p>
 
       </div>
