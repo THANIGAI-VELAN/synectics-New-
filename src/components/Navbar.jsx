@@ -42,9 +42,9 @@ export default function Navbar() {
             {/* Logo */}
             <div className="font-playfair text-2xl font-bold tracking-wider cursor-pointer group">
               <span className="text-white group-hover:text-[#D4AF37] transition-colors duration-300">
-                SYNECTICS
+              GARUDA
               </span>
-              <span className="text-[#D4AF37]">2K26</span>
+              <span className="text-[#D4AF37]">'26</span>
             </div>
 
             {/* Desktop Menu */}

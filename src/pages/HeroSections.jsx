@@ -76,7 +76,7 @@ export default function HeroSection() {
 
 
                 <BlurText
-                    text="Synectics 2K26"
+                    text="GARUDA'26"
                     delay={200}
                     animateBy="words"
                     direction="top"

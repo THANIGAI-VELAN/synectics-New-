@@ -7,8 +7,8 @@ function WhyCard({ number, title, description, delay }) {
         relative
         backdrop-blur-2xl bg-white/5
         border border-white/10
-        rounded-3xl
-        p-12
+        rounded-2xl sm:rounded-3xl
+        p-6 sm:p-8 md:p-12
         transition-all duration-700
         hover:-translate-y-4
         hover:border-[#D4AF37]/50
@@ -18,8 +18,8 @@ function WhyCard({ number, title, description, delay }) {
     >
       {/* Big Number */}
       <div className="
-        absolute -top-10 right-8
-        text-[90px] font-playfair
+        absolute -top-8 right-4 sm:right-6 md:right-8
+        text-[50px] sm:text-[70px] md:text-[90px] font-playfair
         text-[#D4AF37]/15
         pointer-events-none
         select-none
@@ -27,13 +27,13 @@ function WhyCard({ number, title, description, delay }) {
         {number}
       </div>
 
-      <h3 className="text-2xl md:text-3xl font-semibold text-white">
+      <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white">
         {title}
       </h3>
 
       <div className="w-16 h-[2px] bg-[#D4AF37] mt-4 mb-6" />
 
-      <p className="text-gray-300 font-light leading-relaxed text-lg">
+      <p className="text-xs sm:text-sm md:text-base lg:text-lg text-gray-300 font-light leading-relaxed">
         {description}
       </p>
     </div>
@@ -60,14 +60,16 @@ export default function WhyJoinSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full px-4 sm:px-6 lg:px-8 py-44 flex justify-center overflow-hidden"
+      className="relative w-full px-4 sm:px-6 lg:px-8 py-20 sm:py-32 md:py-44 flex justify-center overflow-hidden"
     >
 
       {/* Background WHY Text */}
       <div className="
         absolute
-        text-[200px]
-        md:text-[260px]
+        text-[60px]
+        sm:text-[100px]
+        md:text-[160px]
+        lg:text-[260px]
         font-playfair
         text-white/5
         top-0
@@ -81,11 +83,11 @@ export default function WhyJoinSection() {
 
       <div className="relative w-full max-w-7xl text-center">
 
-        <h2 className="font-playfair text-4xl md:text-6xl font-bold text-white">
+        <h2 className="font-playfair text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-white">
           WHY JOIN <span className="text-[#D4AF37]">SYNECTICS 2026</span>
         </h2>
 
-        <p className="mt-6 text-xl text-gray-400 max-w-3xl mx-auto font-light">
+        <p className="mt-6 text-sm sm:text-base md:text-lg lg:text-xl text-gray-400 max-w-3xl mx-auto font-light px-4">
           More Than an Event — It’s an Experience That Shapes Innovators
         </p>
 
@@ -93,7 +95,7 @@ export default function WhyJoinSection() {
         <div
           className={`
             mt-24
-            grid md:grid-cols-2 gap-16
+            grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 md:gap-16
             transition-all duration-1000
             ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"}
           `}

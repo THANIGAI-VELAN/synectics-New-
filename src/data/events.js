@@ -4,7 +4,7 @@ export const events = [
     highlight: "DS",
     event: "24 Hours Makeathon",
     venue:
-      "Block 3 First Floor CC4 Laboratory, Room No. 107 & 108",
+      "Block 3 - First Floor CC4 Laboratory, Room No. 107 & 108",
     date: "February 21 & 22",
     time: "11:00 AM – 11:00 AM",
   },
@@ -14,7 +14,7 @@ export const events = [
     highlight: "RI",
     event: "Roof to Root",
     venue:
-      "Block 5 Second Floor Room No. 201 & 202, Agri Field (Adjacent to Block 7)",
+      "Block 5 - Second Floor Room No: 201 & 202, Agri Field (Adjacent to Block 7)",
     date: "February 21 & 22",
     time:
       "21st - 9:30 AM to 4:30 PM, 22nd - 9:30 AM to 2:00 PM",
@@ -45,7 +45,7 @@ export const events = [
     department: "MCA",
     highlight: "CA",
     event: "Tech-Trio",
-    venue: "Block 3 Second Floor CC6 Laboratory",
+    venue: "Block 3 - Second Floor , CC6 Laboratory",
     date: "February 21 & 22",
     time:
       "21st - 9:30 AM to 4:30 PM, 22nd - 9:30 AM to 2:00 PM",
@@ -65,7 +65,7 @@ export const events = [
     department: "PHYSICS",
     highlight: "ICS",
     event: "Escape Room",
-    venue: "Block 1 Second Floor Physics Laboratory",
+    venue: "Block 1 - Second Floor,Physics Laboratory",
     date: "February 21 & 22",
     time:
       "21st - 10:00 AM to 3:00 PM, 22nd - 9:30 AM to 2:00 PM",
@@ -75,7 +75,7 @@ export const events = [
     department: "CHEMISTRY",
     highlight: "ISTRY",
     event: "Eco Catalyst",
-    venue: "Block 1 Second Floor Chemistry Laboratory",
+    venue: "Block 1 - Second Floor Chemistry Laboratory",
     date: "February 21 & 22",
     time:
       "21st - 10:00 AM to 3:00 PM, 22nd - 9:30 AM to 2:00 PM",
@@ -85,7 +85,7 @@ export const events = [
     department: "CIPD",
     highlight: "IPD",
     event: "Product Expo",
-    venue: "Block 9 Ground Floor CIPD",
+    venue: "Block 9 - Ground Floor CIPD",
     date: "February 21 & 22",
     time:
       "21st - 9:30 AM to 4:30 PM, 22nd - 9:30 AM to 2:00 PM",
@@ -105,27 +105,34 @@ export const events = [
     department: "Student Welfare",
     highlight: "Welfare",
     event: "Film Making",
-    venue: "Block 5 Ground Floor CC14 Laboratory",
+    venue: "Block 5 - Ground Floor CC14 Laboratory",
     date: "February 21 & 22",
     time:
       "21st - 9:30 AM to 4:30 PM, 22nd - 9:30 AM to 2:00 PM",
   },
 
   // 21st only
-  {
+    {
     department: "CIVIL",
     highlight: "VIL",
-    event: "CAD Fusion X",
+    event: "Cube Masters",
+    venue: "Block 6 - Ground Floor Concrete Laboratory",
+    date: "February 22",
+    time: "9:30 AM - 2:00 PM",
+  },
+  {department: "CIVIL",
+    highlight: "VIL",
+    event: "CAD FUSION X",
     venue: "Block 7 Ground Floor CAD Laboratory",
     date: "February 21",
     time: "9:30 AM - 4:30 PM",
-  },
 
+  },
   {
     department: "CHEMICAL",
     highlight: "MICAL",
     event: "Hydro Tech 4.0",
-    venue: "Block 9 First Floor CC16 Laboratory",
+    venue: "Block 9 - First Floor CC16 Laboratory",
     date: "February 21",
     time: "10:30 AM - 3:30 PM",
   },
@@ -135,7 +142,7 @@ export const events = [
     highlight: "SE",
     event: "Gen-AI Spark",
     venue:
-      "Block 3 Ground Floor CC1, CC2 Laboratory & First Floor CC3 Laboratory",
+"Block 3 - Ground Floor CC1, CC2 Laboratory & First Floor CC3 Laboratory",
     date: "February 21",
     time: "9:30 AM - 4:30 PM",
   },
@@ -145,7 +152,7 @@ export const events = [
     highlight: "SECURITY",
     event: "Capture The Flag (CTF)",
     venue:
-      "Block 4 Ground Floor CC21 Laboratory & Block 5 Ground Floor CC15 Laboratory",
+      "Block 4 - Ground Floor CC21 Laboratory & Block 5 Ground Floor CC15 Laboratory",
     date: "February 21",
     time: "9:30 AM - 4:30 PM",
   },
@@ -154,7 +161,7 @@ export const events = [
     department: "CSE - IOT",
     highlight: "IOT",
     event: "IoT Build Fest",
-    venue: "Block 3 First Floor CC20 & iGen Laboratory",
+    venue: "Block 3 - First Floor CC20 & iGen Laboratory",
     date: "February 21",
     time: "9:30 AM - 4:30 PM",
   },
@@ -164,7 +171,7 @@ export const events = [
     highlight: "T",
     event: "PALS Innovah",
     venue:
-      "Block 3 Ground Floor Placement Auditorium & First Floor Board Room",
+      "Block 3 - Ground Floor Placement Auditorium",
     date: "February 21",
     time: "9:30 AM - 4:30 PM",
   },
@@ -174,7 +181,7 @@ export const events = [
     highlight: "EE",
     event: "Green Energy Conclave",
     venue:
-      "Block 4 Third Floor Room No. 305 & Fourth Floor Power Electronics Laboratory",
+      "Block 4 - Third Floor Room No. 305 & Fourth Floor Power Electronics Laboratory",
     date: "February 21",
     time: "9:30 AM - 4:00 PM",
   },
@@ -192,7 +199,7 @@ export const events = [
     department: "MBA",
     highlight: "BA",
     event: "Futurepreneurs Pitch Fest",
-    venue: "Block 5 Room No. 104",
+    venue: "Block 5 - Room No. 104",
     date: "February 21",
     time: "9:30 AM - 1:00 PM",
   },
@@ -206,20 +213,13 @@ export const events = [
     time: "5:00 PM - 7:00 PM",
   },
 
-  {
-    department: "CIVIL",
-    highlight: "VIL",
-    event: "Cube Masters",
-    venue: "Block 6 Ground Floor Concrete Laboratory",
-    date: "February 22",
-    time: "9:30 AM - 2:00 PM",
-  },
+
 
   {
     department: "MATHS",
     highlight: "THS",
     event: "Math @ Data Science",
-    venue: "Block 3 First Floor CC20 Laboratory",
+    venue: "Block 3 - First Floor CC20 Laboratory",
     date: "February 22",
     time: "10:00 AM - 2:00 PM",
   },
@@ -227,7 +227,7 @@ export const events = [
     department: "ENGLISH",
     highlight: "GLISH",
     event: "Speakthon",
-    venue: "Block 7 First Floor Room No. 102",
+    venue: "Block 7 - First Floor Room No. 102",
     date: "February 22",
     time: "10:00 AM - 2:00 PM",
   },

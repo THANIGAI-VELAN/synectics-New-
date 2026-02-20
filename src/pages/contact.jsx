@@ -19,14 +19,16 @@ export default function ContactSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full px-4 sm:px-6 lg:px-8 py-40 flex justify-center overflow-hidden"
+      className="relative w-full px-4 sm:px-6 lg:px-8 py-20 sm:py-32 md:py-40 flex justify-center overflow-hidden"
     >
 
       {/* Background Text */}
       <div className="
         absolute
-        text-[180px]
-        md:text-[240px]
+        text-[60px]
+        sm:text-[100px]
+        md:text-[180px]
+        lg:text-[240px]
         font-playfair
         text-white/5
         top-10
@@ -46,19 +48,19 @@ export default function ContactSection() {
         `}
       >
 
-        <h2 className="text-center font-playfair text-4xl md:text-6xl font-bold text-white">
+        <h2 className="text-center font-playfair text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-white">
           Connect With <span className="text-[#D4AF37]">Us</span>
         </h2>
 
         {/* Social Media */}
-        <div className="mt-16 flex flex-wrap justify-center gap-10 text-gray-300">
+        <div className="mt-16 flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-10 text-gray-300 px-4">
 
           {["Instagram", "LinkedIn", "YouTube", "Email"].map((platform) => (
             <a
               key={platform}
               href="#"
               className="
-                text-lg font-medium
+                text-xs sm:text-sm md:text-base lg:text-lg font-medium
                 transition-all duration-300
                 hover:text-[#D4AF37]
                 hover:-translate-y-1
@@ -72,17 +74,18 @@ export default function ContactSection() {
 
         {/* Google Map */}
         <div className="
-          mt-20
+          mt-12 sm:mt-16 md:mt-20
           backdrop-blur-2xl bg-white/5
           border border-white/10
-          rounded-3xl
+          rounded-2xl sm:rounded-3xl
           overflow-hidden
           transition-all duration-500
           hover:border-[#D4AF37]/40
+          px-4 sm:px-0
         ">
           <iframe
             src="https://www.google.com/maps?q=Erode%20-%20Perundurai%20Main%20Road,%20Vaikkaalmedu,%20Erode%20-%20638%20052&output=embed"
-            className="w-full h-[500px] border-0"
+            className="w-full h-[300px] sm:h-[400px] md:h-[500px] border-0"
             loading="lazy"
             allowFullScreen
           ></iframe>

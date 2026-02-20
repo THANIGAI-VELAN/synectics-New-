@@ -7,6 +7,7 @@ import AboutSection from "./pages/AboutSection";
 import ContactSection from "./pages/contact";
 import Footer from "./pages/footer";
 import WhyJoinSection from "./pages/joinus";
+import RoadmapSection from "./pages/roadmap";
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -37,6 +38,7 @@ export default function App() {
           <AboutSection />
         </section>
         <section id="roadmap">
+          <RoadmapSection/>
           <WhyJoinSection />
         </section>
         <section id="contact">
